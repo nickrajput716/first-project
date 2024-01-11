@@ -1,0 +1,76 @@
+.search{
+    height: 50px;
+}
+
+.first{
+    display: grid;
+    vertical-align: top;
+    grid-template-rows: 170px 1fr;
+}
+.second{
+display: grid;
+grid-template-columns: 45px 1fr;
+vertical-align: top;
+margin-top: 10px;
+
+
+}
+.first1{
+width: 100%;
+cursor: pointer; 
+position: relative;
+
+
+}
+.second1{
+width: 1fr;
+;
+
+}
+.second2{
+width:100%;
+
+
+
+}
+
+.img1{
+    width: 300px;
+    cursor: pointer;
+
+   
+      
+}
+.img2{
+    width: 40px;
+    border-radius: 20px;
+    vertical-align: top;
+    cursor: pointer;
+
+    
+}
+    
+.second21{
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    
+    
+    
+    
+}
+.second22{
+    color: rgb(98, 96, 96);
+    margin-bottom: 5px;
+    
+}
+.second23{
+    color: rgb(98, 96, 96);
+   
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

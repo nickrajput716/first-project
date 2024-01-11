@@ -1,0 +1,67 @@
+.im9{
+    height: 23px;
+    cursor: pointer;
+
+
+}
+.im10{ 
+height: 23px;  
+margin-bottom: 1.5px; 
+cursor: pointer;
+
+
+}
+.im11{
+  height: 23px;
+  margin-bottom: 1.5px;
+  cursor: pointer;
+
+}
+.im12{
+    height: 23px;
+    margin-bottom: 1.5px;
+    cursor: pointer;
+
+}
+.im13{
+ height: 23px;
+ margin-bottom: 1.5px;  
+ cursor: pointer;
+ 
+}
+.im14{
+ height: 23px;
+ margin-bottom: 1.5px;
+ cursor: pointer;
+
+}
+
+.sidebar div{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    background-color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+   text-align: center;
+   align-items: center;
+   position: relative;  
+   height: 40px;
+}
+.sidebar div:hover{
+    background-color: rgb(227, 227, 227);
+}
+.sidebar{
+    margin-top: 57px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background-color: white;
+    z-index: 50;
+}
+.sidebar p{
+    margin-top: 10px;
+}

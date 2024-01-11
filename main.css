@@ -1,0 +1,27 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 16px;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    
+   
+   
+
+ }
+ @media(max-width : 800px and min-width:500px)
+ {
+   .main{
+    grid-template-columns: 1fr 1fr;
+   } 
+ }
+ @media(max-width :501px and min-width:1000px)
+ {
+    .main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+ }
+ 

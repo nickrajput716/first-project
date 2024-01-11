@@ -1,0 +1,94 @@
+.im1{
+    width: 25px;
+    margin-left: 20px;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+
+}
+.im2{
+    width: 95px;
+    margin-left: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+
+}
+ .im3{
+   width: 22px;
+   height: 22px;
+   cursor: pointer;
+
+    
+ }
+ .im4{
+    width: 20px;
+    border: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+
+   
+    
+
+ }
+ .im5{
+    width: 23px;
+    cursor: pointer;
+    position: relative;
+  
+
+ }
+ .im6{
+    width: 23px;
+    cursor: pointer;
+
+
+ }
+ .im7{
+    width: 23px;
+    cursor: pointer;
+
+
+ }
+ .im8{
+    width: 33px;
+    border-radius: 16.5px;
+    cursor: pointer;
+
+
+ }
+.noti{
+   background-color: rgb(164, 9, 9);
+   color: white;
+   width: 16px;
+   height: 14px;
+   text-align: center;
+   border-radius: 8px;
+   font-size: 11px;
+   position: absolute;
+  margin-left: 95px;
+  margin-bottom: 13px;
+
+ 
+}
+.hlw{
+   background-color: rgb(122, 122, 122);
+   color: white;
+   padding: 5px 10px 5px 10px;
+   border-radius: 2px;
+   display: flex;
+   position: absolute;
+   margin: 20px 0px 0px -20px;
+   cursor: pointer;
+   opacity: 0; 
+   text-align: center;
+   white-space: nowrap;
+   
+}
+.test:hover .hlw{
+opacity: 1;
+transition: 0.1s;
+}
+.test{
+   position: relative;
+   
+}
